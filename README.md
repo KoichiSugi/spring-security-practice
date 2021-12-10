@@ -4,6 +4,20 @@ This is a practice project of Spring Security JWT token Authentication and Autho
 Simple Spring Security demo using jwt token based authentication by the following YouTube video:
 https://www.youtube.com/watch?v=VVn9OG9nfH0&t=6000s&ab_channel=Amigoscode
 
+
+#Run App using Docker Compose
+* To build Docker Compose
+
+`docker compose build`
+
+* To run Docker Compose
+
+`Docker compose up`
+
+You need to create a database userservice inside MySQL container to avoid communication link failure
+
+
+
 ##Dokcer Commands
 The app can be run using the following docker commands
 
